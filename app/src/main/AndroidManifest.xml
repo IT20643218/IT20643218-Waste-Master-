@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Waste_Master">
         <activity
+            android:name=".Activity_02"
+            android:exported="false" />
+        <activity
             android:name=".Activity_01"
             android:exported="true">
             <intent-filter>
